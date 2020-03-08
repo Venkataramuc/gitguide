@@ -24,7 +24,7 @@ git log --raw
 git branch.   
 git branch --list.  
 git branch --no-merge    
-git branch -merge   
+git branch --merge   
 
 
 
