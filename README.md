@@ -27,4 +27,26 @@ git branch --no-merge
 git branch --merge   
 
 
+# Git Tag
+git tag # to see the tags
+
+git tag -a v1.2 -m "this release inlcudes "
+
+git tag <tag_name>
+
+git show <tag_name>
+
+git push origin <tag_name>
+
+
+# delete the tags
+git tag -d v1.0 
+
+git push origin -d v1.0
+
+
+
+# we cannot checkout tag, 
+git checkout -b <beanchname> <tag_name>
+
 
